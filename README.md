@@ -12,25 +12,25 @@ Module 18 - Credit Risk Analysis
   
 1. RandomOverSample
 
-  - The RandomOverSample balanced accuracy score and the precision and recall scores are as follows. 
+  - The RandomOverSample balanced accuracy score and the precision and recall scores are as follows. While it does have a higher F1 score of 0.81 for it's low_risk and the model accuracy is 0.65. The f1 score for predicting high_risk at 0.02 is note as precise as we need it. 
 
 ![dev_1](images/1_RandomOverSample.png "Dev 1 Image")
 
 2. SMOTE
 
-  - The SMOTE balanced accuracy score and the precision and recall scores are as follows. 
+  - The SMOTE balanced accuracy score and the precision and recall scores are as follows. This is the second lowest accuracy score of the 6 models. 
 
 ![dev_2](images/2_SMOTE.png "Dev 2 Image")
 
 3. ClusterCentroids
 
-  - The ClusterCentroids balanced accuracy score and the precision and recall scores are as follows. 
+  - The ClusterCentroids balanced accuracy score and the precision and recall scores are as follows. Note, It has the lowest f1 score for high risk accounts which makes it a poor model for our purposes. 
 
 ![dev_3](images/3_ClusterControls.png "Dev 3 Image")
 
 4. SMOTEENN
 
-  - The SMOTEENN balanced accuracy score and the precision and recall scores are as follows. 
+  - The SMOTEENN balanced accuracy score and the precision and recall scores are as follows. While it's accuracy is similar to RandomOverSample with a score of 0.65. The f1 score for low-risk accounts drops to 0.72 from the initial model. 
 
 ![dev_4](images/4_SMOTEENN.png "Dev 4 Image")
 
@@ -42,7 +42,7 @@ Module 18 - Credit Risk Analysis
 
 6. EasyEnsembleClassifier
 
-  - The EasyEnsembleClassifier balanced accuracy score and the precision and recall scores are as follows. The balance accuracy score is much high for this model then the first four. 
+  - The EasyEnsembleClassifier balanced accuracy score and the precision and recall scores are as follows. The balance accuracy score is much high for this model then the first four. In addition the precision is better than the BalancedRandomForestClassifier.
 
 ![dev_6](images/6_EasyEnsembleClassifier.png "Dev 6 Image")
 
