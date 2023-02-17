@@ -5,13 +5,12 @@ Module 18 - Credit Rist Analysis
 ## Overview of the loan prediction risk analysis:
 - The purpose of this analysis is well defined (4 pt)
 
-
-##Results:
+## Results:
 
 - There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six    machine learning models (15 pt)
   
 
-Summary:
+## Summary:
 
 
 
