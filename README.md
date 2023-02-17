@@ -1,5 +1,5 @@
 # Credit_Risk_Analysis
-Module 18 - Credit Rist Analysis
+Module 18 - Credit Risk Analysis
 
 
 ## Overview of the loan prediction risk analysis:
