@@ -36,13 +36,13 @@ Module 18 - Credit Rist Analysis
 
 5. BalancedRandomForestClassifier
 
-  - The BalancedRandomForestClassifier balanced accuracy score and the precision and recall scores are as follows. 
+  - The BalancedRandomForestClassifier balanced accuracy score and the precision and recall scores are as follows. The balance accuracy score is much high for this model then the first four. 
 
 ![dev_4](images/5_BalancedRandomForestClassifier.png "Dev 5 Image")
 
 6. EasyEnsembleClassifier
 
-  - The EasyEnsembleClassifier balanced accuracy score and the precision and recall scores are as follows. 
+  - The EasyEnsembleClassifier balanced accuracy score and the precision and recall scores are as follows. The balance accuracy score is much high for this model then the first four. 
 
 ![dev_6](images/6_EasyEnsembleClassifier.png "Dev 6 Image")
 
@@ -50,12 +50,9 @@ Module 18 - Credit Rist Analysis
 
 ## Summary:
 
-- There is a summary of the results (2 pt)
-- There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+- As we can see the Machine Learning Techiniques of (1) BalancedRandomForestClassifier and (2) EasyEnsembleClassifier are better models to use for this very grainular data. We can see the balanced accurancy scores of both of these models is about 0.95 which is much higher than the other four models with balanced accurancy scores in the range of 0.52 to 0.65. 
 
-- As we can see the....
-- I would recommend using the ... 
+- In additon, I would recommend using the EasyEnsembleClassifier as the best model to analyze the data and make predictions. It's confusion matrix offers a better balance and thus more precision. We can see this when reviewing the F1 scores. The F1 scores for BalancedRandomForestClassifier were 0.10 for high-risk and 0.95. for low-risk. In comparison, the F1 scores for EasyEnsembleClassifier were 0.18 for high-risk and 0.98 for low-risk. So it is more accurate at predicting both the high risk and low risk events. However, we are most interested in credit risk! So the prediction of 'high risk' credit cards is very important. So the high F-1 score of the EasyEnsembleClassifier at 0.18 for high-risk is almost twice as accurate as the BalancedRandomForestClassifier with an F-1 score 0.10 for high-risk.
 
 
 
-![dev_1](Images/Dev1_DataFrame.png "Dev 1 Image")
